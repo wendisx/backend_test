@@ -3,7 +3,7 @@ const express = require('express');
 const app=express();
 
 app.post('/',(req,res)=>{
-    res.send("test is success");
+    res.send("this is backend program");
 });
 
 app.listen(5000,()=>{
